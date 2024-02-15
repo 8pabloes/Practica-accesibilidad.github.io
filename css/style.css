@@ -1,0 +1,160 @@
+/* Estilos generales */
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente predeterminada */
+    margin: 0; /* Eliminar márgenes */
+    padding: 0; /* Eliminar relleno */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 0 20px; /* Relleno interno */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 20px 0; /* Espaciado interno */
+}
+
+/* Estilos para la barra de navegación */
+nav ul {
+    list-style-type: none; /* Eliminar viñetas */
+    margin: 0; /* Eliminar márgenes */
+    padding: 0; /* Eliminar relleno */
+}
+
+nav ul li {
+    display: inline; /* Mostrar elementos en línea */
+    margin-right: 20px; /* Márgenes derecha */
+}
+
+nav ul li a {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado */
+}
+
+/* Estilos para la sección de categorías */
+#categorias {
+    padding: 50px 0; /* Espaciado interno */
+}
+
+/* Estilos para el carrusel */
+.carousel-item img {
+    width: 100%; /* Ancho del 100% */
+    height: 600px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Hace que la foto se vea bien */
+    object-position: center; /* Centrar la imagen dentro del contenedor */
+    display: block; /* Mostrar como bloque */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/* Estilos para los botones de control del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    color: #333; /* Cambiar el color de los botones a uno más oscuro */
+}
+
+/* Estilos para el botón "Ver más recetas" */
+.btn {
+    display: block; /* Mostrar como bloque */
+    width: 200px; /* Ancho fijo */
+    margin: 20px auto; /* Centrar horizontalmente */
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; /* Alinear al centro */
+    text-decoration: none; /* Quitar subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.8s ease; /* Transición suave de color de fondo */
+    background-color: #ff6600; /* Color de fondo naranja predeterminado */
+    color: #fff; /* Color del texto */
+    border: none; /* Quitar borde */
+}
+
+.btn:hover {
+    background-color: #e6581f; /* Cambiar color de fondo al pasar el mouse */
+}
+
+/* Estilos para las recetas populares */
+#populares {
+    padding: 50px 0; /* Espaciado interno */
+}
+
+.receta {
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+.receta img {
+    width: 100%; /* Ancho completo */
+    height: auto; /* Altura automática */
+    border-radius: 5px; /* Agregar bordes redondeados */
+}
+
+.receta h3 {
+    margin-top: 10px; /* Margen superior */
+    font-size: 1.5rem; /* Tamaño de fuente */
+}
+
+.receta p {
+    color: #666; /* Color del texto */
+}
+
+.receta .btn-ver-receta {
+    background-color: #ff6600; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Quitar borde */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s ease; /* Transición suave de color de fondo */
+}
+
+.receta .btn-ver-receta:hover {
+    background-color: #ff8533; /* Cambiar color de fondo al pasar el mouse */
+}
+
+/* Estilos para el lector de pantalla */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+/* Estilos para la sección de comentarios */
+#comentarios {
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 50px 0; /* Espaciado interno */
+}
+
+#comentarios h2 {
+    color: #333; /* Color del título */
+}
+
+.card {
+    border: none; /* Quitar borde de las tarjetas */
+    background-color: #fff; /* Color de fondo de las tarjetas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.card-title {
+    font-size: 1.2rem; /* Tamaño del título */
+    margin-bottom: 0.5rem; /* Margen inferior */
+}
+
+.card-text {
+    color: #555; /* Color del texto del comentario */
+}
+
+.card-body {
+    padding: 1.5rem; /* Espaciado interno del cuerpo de la tarjeta */
+}
+
