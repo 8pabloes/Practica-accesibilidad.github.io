@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Recetas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-4">
+        <div class="container">
+            <h1>Cocina Fácil</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Recetas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Categorías</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="categorias">
+            <div class="container">
+                <h2>Recetas</h2>
+                <div id="carouselRecetas" class="carousel slide" data-ride="carousel" aria-labelledby="carouselLabel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" role="option">
+                            <img src="../img/raxo-gallego-600x900.webp" class="d-block w-100" alt="Raxo">
+                            <div class="subtitulo-carrusel d-none d-md-block">
+                                <h3>Raxo Gallego – Receta Tradicional Gallega</h3>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item" role="option">
+                            <img src="../img/lasaña.jpg" class="d-block w-100" alt="Lasaña">
+                            <div class="subtitulo-carrusel d-none d-md-block">
+                                <h3>Lasaña de carne</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item" role="option">
+                            <img src="../img/carbonara.webp" class="d-block w-100" alt="Espaguetis Carbonara">
+                            <div class="subtitulo-carrusel d-none d-md-block">
+                                <h3>Espaguetis carbonara</h3>
+                            </div>
+                        </div>
+                        
+                        <!-- Agregar más imágenes de recetas de carne aquí -->
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselRecetas" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselRecetas" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                    <span id="carouselLabel" class="sr-only">Carousel de recetas</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="populares">
+            <div class="container">
+                <h2>Recetas Populares</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="receta">
+                            <img src="../img/fabada.webp" alt="Fabada asturiana">
+                            <h3>Fabada asturiana</h3>
+                            <a href="#" class="btn btn-ver-receta">Ver receta</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="receta">
+                            <img src="../img/paellamarisco.jpg" alt="Paella marisco">
+                            <h3>Paella marisco</h3>
+                            <a href="#" class="btn btn-ver-receta">Ver receta</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="receta">
+                            <img src="../img/pulpo.jpg" alt="Pulpo a feira">
+                            <h3>Pulpo a feira</h3>
+                            <a href="#" class="btn btn-ver-receta">Ver receta</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="comentarios" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Comentarios de los usuarios</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h3 class="card-title">Usuario 1</h3>
+                                <p class="card-text">"¡Me encantó esta receta! Fácil de seguir y el resultado fue delicioso."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h3 class="card-title">Usuario 2</h3>
+                                <p class="card-text">"Probé esta receta el fin de semana y a mi familia le encantó. Definitivamente la recomiendo."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h3 class="card-title">Usuario 3</h3>
+                                <p class="card-text">"Excelente receta, muy bien explicada. ¡Voy a probar más recetas de este sitio!"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h3 class="card-title">Usuario 4</h3>
+                                <p class="card-text">"¡Gracias por compartir estas recetas! Siempre encuentro algo nuevo y delicioso aquí."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <p>&copy; 2024 Portal de Recetas. Todos los derechos reservados.</p>
+            <nav>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Acerca de nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Política de privacidad</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (jQuery debe estar incluido antes de esto) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

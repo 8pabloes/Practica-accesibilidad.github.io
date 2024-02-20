@@ -103,7 +103,7 @@ nav ul li a {
 }
 
 .receta .btn-ver-receta {
-    background-color: #ff6600; /* Color de fondo */
+    background-color: #333; /* Cambiar el color de fondo a un gris oscuro para mejorar el contraste */
     color: #fff; /* Color del texto */
     border: none; /* Quitar borde */
     padding: 10px 20px; /* Espaciado interno */
@@ -112,6 +112,7 @@ nav ul li a {
     font-weight: bold; /* Texto en negrita */
     transition: background-color 0.3s ease; /* Transición suave de color de fondo */
 }
+
 
 .receta .btn-ver-receta:hover {
     background-color: #ff8533; /* Cambiar color de fondo al pasar el mouse */
