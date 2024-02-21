@@ -169,3 +169,8 @@ footer a {
 footer a:hover {
     text-decoration: underline; /* Subraya el texto al pasar el ratón */
 }
+
+/* Cambios para mejorar el contraste */
+nav .nav-link {
+    color: #ffffff; /* Color del texto */
+}
