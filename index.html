@@ -13,64 +13,47 @@
 <body>
     <header class="bg-dark text-white py-4">
         <div class="container">
-            <h1>Cocina Fácil</h1>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Recetas</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Categorías</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Sobre Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main>
-        <section id="categorias">
-            <div class="container">
-                <h2>Recetas</h2>
-                <div id="carouselRecetas" class="carousel slide" data-ride="carousel" aria-labelledby="carouselLabel">
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active" aria-labelledby="raxoLabel">
-                            <img src="img/raxo-gallego-600x900.webp" class="d-block w-100" alt="Raxo Gallego – Receta Tradicional Gallega" width="600" height="900">
-                            <div class="subtitulo-carrusel d-none d-md-block">
-                                <h3 id="raxoLabel">Raxo Gallego – Receta Tradicional Gallega</h3>
-                            </div>
+            <h2>Recetas</h2>
+            <div id="carouselRecetas" class="carousel slide" data-ride="carousel" aria-labelledby="carouselLabel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active" aria-labelledby="raxoLabel">
+                        <img src="img/raxo-gallego-600x900.webp" class="d-block w-100" alt="Raxo Gallego – Receta Tradicional Gallega" width="600" height="900">
+                        <div class="subtitulo-carrusel d-none d-md-block">
+                            <h3 id="raxoLabel">Raxo Gallego – Receta Tradicional Gallega</h3>
                         </div>
-                        
-                        <div class="carousel-item" aria-labelledby="lasanaLabel">
-                            <img src="img/lasaña.jpg" class="d-block w-100" alt="Lasaña" width="600" height="900">
-                            <div class="subtitulo-carrusel d-none d-md-block">
-                                <h3 id="lasanaLabel">Lasaña de carne</h3>
-                            </div>
-                        </div>
-                        
-                        <div class="carousel-item" aria-labelledby="carbonaraLabel">
-                            <img src="img/carbonara.webp" class="d-block w-100" alt="Espaguetis Carbonara" width="600" height="900">
-                            <div class="subtitulo-carrusel d-none d-md-block">
-                                <h3 id="carbonaraLabel">Espaguetis carbonara</h3>
-                            </div>
-                        </div>
-                        
-                        <!-- Agregar más imágenes del carrusel aquí -->
                     </div>
                     
-                    <!-- Controles del carrusel -->
-                    <a class="carousel-control-prev" href="#carouselRecetas" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Anterior</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselRecetas" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Siguiente</span>
-                    </a>
+                    <div class="carousel-item" aria-labelledby="lasanaLabel">
+                        <img src="img/lasaña.jpg" class="d-block w-100" alt="Lasaña" width="600" height="900">
+                        <div class="subtitulo-carrusel d-none d-md-block">
+                            <h3 id="lasanaLabel">Lasaña de carne</h3>
+                        </div>
+                    </div>
                     
-                    <!-- Etiqueta del carrusel -->
-                    <span id="carouselLabel" class="sr-only">Carousel de recetas</span>
+                    <div class="carousel-item" aria-labelledby="carbonaraLabel">
+                        <img src="img/carbonara.webp" class="d-block w-100" alt="Espaguetis Carbonara" width="600" height="900">
+                        <div class="subtitulo-carrusel d-none d-md-block">
+                            <h3 id="carbonaraLabel">Espaguetis carbonara</h3>
+                        </div>
+                    </div>
+                    
+                    <!-- Agregar más imágenes del carrusel aquí -->
                 </div>
+                
+                <!-- Controles del carrusel -->
+                <a class="carousel-control-prev" href="#carouselRecetas" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselRecetas" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                </a>
+                
+                <!-- Etiqueta del carrusel -->
+                <span id="carouselLabel" class="sr-only">Carousel de recetas</span>
             </div>
-        </section>
+        </div>
         </section>
         
         <section id="populares">
