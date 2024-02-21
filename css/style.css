@@ -164,20 +164,13 @@ nav .nav-link {
     color: #ffffff; /* Color del texto */
 }
 
-
-
 /* Cambios para mejorar el contraste */
 .navbar-dark .navbar-toggler-icon {
     background-color: #ffffff;
-}
-
-
-
-.navbar-dark .navbar-nav .nav-link {
-    color: #ffffff; /* Color del texto */
 }
 
 /* Cambios adicionales para mejorar el contraste */
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #cccccc; /* Color del texto al pasar el ratón */
 }
+
