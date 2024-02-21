@@ -116,87 +116,55 @@ nav ul li a {
 
 /* Clase de utilidad para elementos que son visuales solo para lectores de pantalla */
 .sr-only {
-position: absolute; /* Posición absoluta para ocultar */
-width: 1px; /* Ancho de 1 píxel */
-height: 1px; /* Altura de 1 píxel */
-padding: 0; /* Sin relleno */
-margin: -1px; /* Margen negativo para ocultar */
-overflow: hidden; /* Oculta cualquier desbordamiento */
-clip: rect(0, 0, 0, 0); /* Oculta visualmente el elemento */
-border: 0; /* Sin borde */
+    position: absolute; /* Posición absoluta para ocultar */
+    width: 1px; /* Ancho de 1 píxel */
+    height: 1px; /* Altura de 1 píxel */
+    padding: 0; /* Sin relleno */
+    margin: -1px; /* Margen negativo para ocultar */
+    overflow: hidden; /* Oculta cualquier desbordamiento */
+    clip: rect(0, 0, 0, 0); /* Oculta visualmente el elemento */
+    border: 0; /* Sin borde */
 }
 
 /* Estilos para la sección de comentarios */
 #comentarios {
-background-color: #f8f9fa; /* Color de fondo */
-padding: 50px 0; /* Espaciado interno */
+    background-color: #f8f9fa; /* Color de fondo */
+    padding: 50px 0; /* Espaciado interno */
 }
 
 #comentarios h2 {
-color: #333; /* Color del título */
+    color: #333; /* Color del título */
 }
 
 .card {
-border: none; /* Sin borde /
-background-color: #fff; / Color de fondo /
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); / Sombra ligera */
+    border: none; /* Sin borde */
+    background-color: #fff; /* Color de fondo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
 }
 
 .card-title {
-font-size: 1.2rem; /* Tamaño de fuente del título /
-margin-bottom: 0.5rem; / Margen inferior */
+    font-size: 1.2rem; /* Tamaño de fuente del título */
+    margin-bottom: 0.5rem; /* Margen inferior */
 }
 
 .card-text {
-color: #555; /* Color del texto */
+    color: #555; /* Color del texto */
 }
 
 .card-body {
-padding: 1.5rem; /* Espaciado interno del cuerpo */
+    padding: 1.5rem; /* Espaciado interno del cuerpo */
+}
+
+/* Cambios para mejorar el contraste */
+nav .nav-link {
+    color: #fff; /* Color del texto */
 }
 
 .navbar-dark .navbar-nav .nav-link {
-color: #fff; /* Color del texto */
-
-
-/* Establecer fondo y texto para la navegación */
-.navbar-dark {
-background-color: #343a40; /* Fondo oscuro */
+    color: #fff; /* Color del texto */
 }
 
-/* Establecer fondo y texto para la navegación desplegable */
-.navbar-dark .navbar-nav .dropdown-menu {
-background-color: #343a40; /* Fondo oscuro */
-}
-
-.navbar-dark .navbar-nav .dropdown-menu .dropdown-item {
-color: #fff; /* Color del texto */
-}
-
-/* Establecer fondo y texto para la navegación desplegable activa */
-.navbar-dark .navbar-nav .dropdown-menu .dropdown-item.active,
-.navbar-dark .navbar-nav .dropdown-menu .dropdown-item:active {
-background-color: #007bff; /* Fondo azul */
-}
-
-/* Establecer color de fondo y texto para el enlace activo */
-.navbar-dark .navbar-nav .nav-item.active .nav-link,
-.navbar-dark .navbar-nav .nav-item.show .nav-link {
-color: #007bff; /* Color azul */
-}
-
-/* Establecer color de fondo y texto para el enlace en hover */
-.navbar-dark .navbar-nav .nav-item .nav-link:hover {
-color: #007bff; /* Color azul */
-}
-
-/* Establecer color de fondo y texto para el enlace desactivado */
-.navbar-dark .navbar-nav .nav-item .nav-link.disabled {
-color: rgba(255, 255, 255, 0.5); /* Color blanco semi-transparente */
-}
-
-/* Establecer color de fondo y texto para el enlace desactivado en hover */
-.navbar-dark .navbar-nav .nav-item .nav-link.disabled:hover {
-color: rgba(255, 255, 255, 0.5); /* Color blanco semi-transparente */
-}
+/* Cambios para mejorar el contraste */
+.navbar-dark .navbar-toggler-icon {
+    background-color: #fff;
 }
