@@ -5,6 +5,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente preferida */
     margin: 0; /* Elimina los márgenes predeterminados */
     padding: 0; /* Elimina el relleno predeterminado */
+    color: #333; /* Color del texto predeterminado */
 }
 
 /* Contenedor principal */
@@ -139,38 +140,32 @@ nav ul li a {
 .card {
     border: none; /* Sin borde */
     background-color: #fff; /* Color de fondo */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: box-shadow 0.3s ease; /* Transición suave de la sombra */
 }
 
-.card-title {
-    font-size: 1.2rem; /* Tamaño de fuente del título */
-    margin-bottom: 0.5rem; /* Margen inferior */
-}
-
-.card-text {
-    color: #555; /* Color del texto */
+.card:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Aumenta la sombra al pasar el ratón */
 }
 
 .card-body {
-    padding: 1.5rem; /* Espaciado interno del cuerpo */
+    padding: 20px; /* Espaciado interno */
 }
 
-/* Cambios para mejorar el contraste */
-nav .nav-link {
-    color: #ffffff; /* Color del texto */
+/* Estilos para el pie de página */
+footer {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 20px 0; /* Espaciado interno */
+    text-align: center; /* Alinea el texto al centro */
 }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: #ffffff; /* Color del texto */
+/* Estilos para el pie de página enlaces */
+footer a {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
 }
 
-/* Cambios para mejorar el contraste */
-.navbar-dark .navbar-toggler-icon {
-    background-color: #ffffff;
+footer a:hover {
+    text-decoration: underline; /* Subraya el texto al pasar el ratón */
 }
-
-/* Cambios adicionales para mejorar el contraste */
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: #cccccc; /* Color del texto al pasar el ratón */
-}
-
