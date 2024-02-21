@@ -1,11 +1,10 @@
-/* Estilos generales */
 
 /* Establece la fuente predeterminada para el cuerpo de la página */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente preferida */
-    margin: 0; /* Elimina los márgenes predeterminados */
-    padding: 0; /* Elimina el relleno predeterminado */
-    color: #333; /* Color del texto predeterminado */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    color: #333; 
 }
 
 /* Contenedor principal */
@@ -17,8 +16,8 @@ body {
 
 /* Estilos para el encabezado */
 header {
-    background-color: #333; /* Color de fondo */
-    color: #fff; /* Color del texto */
+    background-color: #333; 
+    color: #fff; 
     padding: 20px 0; /* Espaciado interno */
 }
 
@@ -41,13 +40,13 @@ nav ul li a {
 
 /* Estilos para la sección de categorías */
 #categorias {
-    padding: 50px 0; /* Espaciado interno */
+    padding: 50px 0; 
 }
 
 /* Estilos para las imágenes dentro del carrusel */
 .carousel-item img {
-    width: 100%; /* Establece el ancho de la imagen al 100% del contenedor */
-    height: 600px; /* Altura fija para todas las imágenes */
+    width: 100%; 
+    height: 600px; 
     object-fit: cover; /* Escala la imagen para cubrir el contenedor */
     object-position: center; /* Centra la imagen horizontalmente */
     display: block; /* Muestra la imagen como bloque */
@@ -57,22 +56,22 @@ nav ul li a {
 /* Estilos para los botones de control del carrusel */
 .carousel-control-next,
 .carousel-control-prev {
-    color: #333; /* Color de los botones de control */
+    color: #333; 
 }
 
 /* Estilos para los botones de ver receta */
 .btn {
-    display: block; /* Muestra el botón como bloque */
-    width: 200px; /* Ancho fijo */
-    margin: 20px auto; /* Centra el botón horizontalmente */
-    padding: 10px 20px; /* Añade relleno interno */
-    text-align: center; /* Alinea el texto al centro */
+    display: block; 
+    width: 200px; 
+    margin: 20px auto; 
+    padding: 10px 20px; 
+    text-align: center; 
     text-decoration: none; /* Elimina el subrayado del enlace */
     border-radius: 5px; /* Añade bordes redondeados */
     transition: background-color 0.8s ease; /* Transición suave del color de fondo */
-    background-color: #f60; /* Color de fondo naranja */
-    color: #fff; /* Color del texto */
-    border: none; /* Elimina el borde */
+    background-color: #f60; 
+    color: #fff; 
+    border: none; 
 }
 
 .btn:hover {
@@ -89,8 +88,8 @@ nav ul li a {
 }
 
 .receta img {
-    width: 100%; /* Ancho completo */
-    height: auto; /* Altura automática */
+    width: 100%; 
+    height: auto; 
     border-radius: 5px; /* Agrega bordes redondeados */
     max-width: 100%; /* Evita que las imágenes se desborden del contenedor */
 }
@@ -101,11 +100,11 @@ nav ul li a {
 }
 
 .receta .btn-ver-receta {
-    background-color: #333; /* Color de fondo gris oscuro */
-    color: #fff; /* Color del texto */
-    border: none; /* Elimina el borde */
-    padding: 10px 20px; /* Añade relleno interno */
-    border-radius: 5px; /* Añade bordes redondeados */
+    background-color: #333; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px;
     text-transform: uppercase; /* Convierte el texto a mayúsculas */
     font-weight: bold; /* Texto en negrita */
     transition: background-color 0.3s ease; /* Transición suave del color de fondo */
@@ -118,8 +117,8 @@ nav ul li a {
 /* Clase de utilidad para elementos que son visuales solo para lectores de pantalla */
 .sr-only {
     position: absolute; /* Posición absoluta para ocultar */
-    width: 1px; /* Ancho de 1 píxel */
-    height: 1px; /* Altura de 1 píxel */
+    width: 1px;
+    height: 1px; 
     padding: 0; /* Sin relleno */
     margin: -1px; /* Margen negativo para ocultar */
     overflow: hidden; /* Oculta cualquier desbordamiento */
@@ -170,7 +169,11 @@ footer a:hover {
     text-decoration: underline; /* Subraya el texto al pasar el ratón */
 }
 
-/* Cambios para mejorar el contraste */
-nav .nav-link {
-    color: #ffffff; /* Color del texto */
+/* Estilos para la barra de navegación */
+nav.navbar {
+    background-color: #007bff; 
+}
+
+nav.navbar .nav-link {
+    color: #fff !important; 
 }
